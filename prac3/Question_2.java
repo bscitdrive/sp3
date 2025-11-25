@@ -1,3 +1,14 @@
+/*
+Automate the following test scenarios: 
+a) Invoke firefox Browser 
+b) Open URL: https://www.google.co.in/ 
+c) Get Page Title name and Title length 
+d) Print Page Title and Title length on the Eclipse Console 
+e) Get page URL and verify whether it is the desired page or not 
+f) Get page Source and Page Source length 
+g) Print page Length on Eclipse Console. 
+h)  Close the Browser 
+*/
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 
@@ -41,3 +52,4 @@ public class Question_2 {
 
 
 }
+
