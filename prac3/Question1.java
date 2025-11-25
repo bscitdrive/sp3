@@ -1,4 +1,10 @@
-
+/*
+Write a selenium script to navigate to https://www.toolsqa.com/selenium-training/ 
+website and perform following actions-1) Click on Registration button link,2) Come back to 
+Home page (Use 'Back' command),  3) Again goback to Registration page (This time use 
+'Forward' command), 4) Again come back to Home page (This time use 'To' command), 5) 
+Refresh the Browser (Use 'Refresh' command) 
+*/
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
@@ -43,3 +49,4 @@ public class Question1 {
 	}
 
 }
+
